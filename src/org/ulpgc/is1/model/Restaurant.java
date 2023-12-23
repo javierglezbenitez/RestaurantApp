@@ -28,6 +28,7 @@ public class Restaurant {
         this.name = name;
     }
 
+
     public Phone getPhone() {
         return this.phone;
     }
