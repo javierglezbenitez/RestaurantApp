@@ -78,7 +78,7 @@ public class Order {
             item = (OrderItem)var2.next();
         }
 
-        return price;
+        return  price;
     }
     @Override
     public String toString() {
