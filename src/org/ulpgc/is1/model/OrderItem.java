@@ -1,6 +1,5 @@
 package org.ulpgc.is1.model;
 
-import java.util.ArrayList;
 
 public class OrderItem {
     private int quantity;

@@ -1,6 +1,5 @@
 package org.ulpgc.is1.model;
 
-import java.util.regex.Pattern;
 
 public class Phone {
     private String number;

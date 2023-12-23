@@ -1,6 +1,5 @@
 package org.ulpgc.is1.model;
 
-import org.ulpgc.is1.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
