@@ -7,12 +7,15 @@ public class Address {
     private String city;
 
     public Address(String street, int number, int postalCode, String city) {
+        this.setAddress(street, number, postalCode, city);
+    }
+
+    public void setAddress(String street, int number, int postalCode, String city) {
         this.street = street;
         this.number = number;
         this.postalCode = postalCode;
         this.city = city;
     }
-
     public String getStreet() {
         return street;
     }
@@ -43,5 +46,13 @@ public class Address {
 
     public void setCity(String city) {
         this.city = city;
+    }
+    @Override
+    public String toString() {
+        return
+                "[street='" + street + '\'' +
+                ", number=" + number +
+                ", postalCode=" + postalCode +
+                ", city='" + city + '\''+"]" ;
     }
 }
