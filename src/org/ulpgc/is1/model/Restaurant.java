@@ -6,11 +6,8 @@ public class Restaurant {
     private String name;
     private Phone phone;
 
-
     private ArrayList<Order> orders;
     private ArrayList<Menu> menus;
-
-
 
     public  Restaurant(String name, Phone phone,Menu menu) {
         this.name = name;

@@ -34,7 +34,6 @@ public class OrderManager {
         }
 
     }
-
     public Restaurant getRestaurant(int i) {
         return (Restaurant)this.restaurantList.get(i);
     }
