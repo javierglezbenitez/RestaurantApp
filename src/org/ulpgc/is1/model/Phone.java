@@ -1,6 +1,5 @@
 package org.ulpgc.is1.model;
 
-
 public class Phone {
     private String number;
 
@@ -11,7 +10,6 @@ public class Phone {
             this.number =  "XXXX";
         }
     }
-
     public String getNumber() {
         return this.number;
     }
@@ -22,7 +20,7 @@ public class Phone {
         if (number.length() != 9){
             return false;
         }else
-            return number != null && number.matches(patron);
+            return number.matches(patron);
 
     }
 }
