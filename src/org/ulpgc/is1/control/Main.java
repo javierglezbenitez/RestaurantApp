@@ -2,7 +2,6 @@ package org.ulpgc.is1.control;
 
 import org.ulpgc.is1.model.*;
 
-
 public class Main {
     private static void init(OrderManager orderManager) {
         orderManager.addCustomer("Carlos", "González", "Calle Principal", 25, 35250, "Ciudad Real");
