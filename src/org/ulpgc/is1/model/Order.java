@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Order {
-
     private static int NEXT_ID = 0;
 
     public final int id;
@@ -13,9 +12,6 @@ public class Order {
 
     private Customer customer;
     private Restaurant restaurant;
-
-
-
 
     public Order(Customer customer, Restaurant restaurant) {
         this.id = NEXT_ID++;
@@ -56,8 +52,6 @@ public class Order {
     public ArrayList<OrderItem> getOrderItems() {
         return orderItems;
     }
-
-
 
 
     void addItems(int quantity,Dish dish){
